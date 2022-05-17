@@ -17,14 +17,14 @@ Most of the behavioral questions should be answered in the CAR format. At least 
 	- How are you better?
 
 ### Questions
-- [x] Give me an example of a project or initiative that you started on your own. What prompted you to get started?
-	- **Cause:** At a previous company we had project managers assigned to several different teams where workload would fluctuate quite a bit.
-	- **Action:** I noticed an opportunity to flatten the workload of the PM's, by creating a shared PM pool. 
-	- **Result:** This was possible by running a high level kanban of all projects assigned by PM to get visibility to workload. It also allowed knowledge sharing such that it was much easier for a PM to step in on any given team.
-- [x] Tell me about a time you had to work on several projects at once. How did you handle this?
-	- **Cause:** I was working on two large projects for two separate clients that were at different stages of their lifecycle. One project was in production and the other project was in the implementation phase.
-	- **Action:** I decided to send a less experienced colleague to the installation site while I went to do a production check-in on the other project in China. Prior to leaving I briefed my colleague in on the project and told then what to look out for.
-	- **Result:** While in China I had daily calls with my colleague as well as received daily photo reports to review the installation. Both projects end up being financially successful. The tight communication and teamwork is ultimately what allowed it to be so.
+- [] Give me an example of a project or initiative that you started on your own. What prompted you to get started?
+	- **Cause:**
+	- **Action:** 
+	- **Result:** 
+- [] Tell me about a time you had to work on several projects at once. How did you handle this?
+	- **Cause:** 
+	- **Action:** 
+	- **Result:** 
 - [ ] Describe a situation in which you felt you had not communicated well enough. What did you do? How did you handle it?
 	- **Cause:**
 	- **Action:**
@@ -114,12 +114,12 @@ Most of the technical questions should have a three sentence response in the EUE
 - **Example**
 
 ### HTML
-- [x]  What does a doctype do?
+- []  What does a doctype do?
 	- **Explanation:** Instructions to the browser about what version of HTML the webpage is written in, ensuring the web page is parsed the same way across web browsers.
 	- **Use:** It's the first line of code in the HTML document.
 	- **Example:** For an HTML5 document the tag would be `<!DOCTYPE html>`
 	- **Source:** https://www.freecodecamp.org/news/what-is-the-doctype-declaration-in-html/
-- [x]   How do you serve a page with content in multiple languages?  
+- []   How do you serve a page with content in multiple languages?  
 	- **Explanation:** By setting the lang attributes on the various elements within the page.
 	- **Use:** The lang attribute can be used on various elements (typically html, p, li...)
 	- **Example:** You can set the whole site as being english by setting the html element `<html lang="en">` Or you could set a paragraph as spanish with `<p lang="es">`
@@ -171,7 +171,7 @@ Most of the technical questions should have a three sentence response in the EUE
 	- **Source:**
 
 ### CSS
-- [x]  What is CSS selector specificity and how does it work?  
+- []  What is CSS selector specificity and how does it work?  
 	- **Explanation:** The means by which browsers decide which CSS property values are the most relevant to an element and, therefore, will be applied.
 	- **Use:** Specificity is a weight that is applied to a given CSS declaration, determined by the number of each selector type in the matching selector.
 	- **Example:** A selector of `#id .class tag` would have 111 points as id's count for 100, classes for 10 and tags 1.
@@ -328,7 +328,7 @@ Most of the technical questions should have a three sentence response in the EUE
 	- **Source:** 
 
 ### Javascript
-- [x] Explain event delegation   
+- [] Explain event delegation   
 	- **Explanation:** Setting an event listener on a parent element an having events that happen on a child element bubble up to the parent.
 	- **Use:** When you want some code to run when the user interacts with any one of a large number of child elements.
 	- **Example:** 
@@ -608,7 +608,7 @@ Most of the technical questions should have a three sentence response in the EUE
 	- **Source:**  
 
 ### Javascript General
-- [x] Can you name two programming paradigms important for JavaScript app developers?   
+- [] Can you name two programming paradigms important for JavaScript app developers?   
 	- OOP and Functional Programming are the most often used. OOP allows inheritance via different "classes". Functional is pure-functions without side effects.
 - [ ] What is functional programming?  
 	- **Explanation:**
@@ -637,7 +637,7 @@ Most of the technical questions should have a three sentence response in the EUE
 	- **Source:** 
 
 ### Node
-- [x] What is Node.js? Where can you use it?   
+- [] What is Node.js? Where can you use it?   
 	- Node.js is a single-threaded, open-source, cross-platform runtime environment used to build server-side and networking applications. It uses event-driven, non-blocking I/O architecture, which makes it efficient and suitable for real-time applications.
 - [ ] Why use Node.js?  
 	- **Explanation:**
@@ -771,7 +771,7 @@ Most of the technical questions should have a three sentence response in the EUE
 	- **Source:**  
 
 ### CS Theory 
-- [x] What is recursion and give an example using javascript?   
+- [] What is recursion and give an example using javascript?   
 	- **Explanation:** Recursion is when a function calls itself within its own body. Besides the recursive call, it should always have a base case which stops it from calling itself to prevent infinite loops.
 	- **Use:** Recursion is made for solving problems that can be broken down into smaller, repetitive problems. It is especially good for working on things that have many possible branches and are too complex for an iterative approach.
 	- **Example:** A classic example is computing a factorial given a number `num`:
